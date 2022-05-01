@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="service.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
 </head>
-    <body>
-        <div class="all">
-            <!--Stick Header From Here-->
+
+<body>
+    <div class="all">
+        <!--Stick Header From Here-->
       <div class="stick_head">
         <div class="head_title">
             <a href="index.html"><img class="logo "src="media/logo.png"></a>
@@ -50,70 +51,49 @@
              </ul>
          </li>
          <li class="nav_cat"><a class="nav_link" href="special.htm">Special</a></li>
-         <li class="nav_cat"><a class="nav_link" href="Contact Us.htm">About Us</a></li>
+         <li class="nav_cat"><a class="nav_link" href="service.htm">About Us</a></li>
          <li class="nav_cat"><a class="nav_link" href="help.htm" >Help</a></li>
      </ul>
  </nav>
+        <form action="indecs.html" method="post">
+            <div class="con">
+                <header>
+                <!-- useing becuse h2 and p  -->
+                    <h1>Log In</h1>
+                    <p>Enter your Username and Password </p>
+                </header>
+                <br>
+                <!-- to the username -->
+                <div class="input-box">
 
-        <!--Service from here-->
-        <section class="cards" id="services"></section>
-        <h2 class="title">Our Services</h2>
-        <div class="content">
-            <div class="card">
-                <div class="icon">
-                    <img src="media/s1.jpg">
+                    <span class="icon">
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+                    <input type="text" placeholder="UserName" required id="name">
                 </div>
-                <div class="info">
-                    <h3>Hardware</h3>
-                    <p><br>We got the best hardware collection that any gamer would find in the middle east with the best quality.</p>
+                <br>
+                <!-- to the password -->
+                <div class="input-box">  
+                    <span class="icon">
+                        <i class="fa fa-key"></i>
+                    </span>
+
+                    <input id="password" class="input-form" type="password" placeholder="Password" required>
+                    <!-- to hide and show password -->
+                    <span class="eye" onclick="solve()">
+                        <i id="hide1" class="fa-solid fa-eye"></i>
+                        <i id="hide2" class="fa-solid fa-eye-slash"></i>
+
+                    </span>
                 </div>
+                <br>
+                <!-- the bottom -->
+
+                <button type="button" onclick="save()" class="log-in">LOGIN</button>
+
+                <a class="signup_link" href="signup.htm">You Don't Have Account ?</a>
             </div>
-            <div class="card">
-                <div class="icon">
-                    <img src="media/s2.jpg">
-                </div>
-                <div class="info">
-                    <h3>Accessories</h3>
-                    <p><br>Here you will find the best collection of accessories for your gaming personal gaming computer.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <img src="media/s3.jpg">
-                </div>
-                <div class="info">
-                    <h3>Games</h3>
-                    <p><br>If you are a gamer looking for a game, here you can find any game you would like to play.</p>
-                </div> 
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <img src="media/s4.jpg">
-                </div>
-                <div class="info">
-                    <h3>Offers & Discounts</h3>
-                    <p><br>If you worry about money , here you can find your needs with the least prices.</p>
-                </div> 
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <img src="media/s5.jpg">
-                </div>
-                <div class="info">
-                    <h3>Help Center</h3>
-                    <p><br>Customers are our first priority , our help and support center is open 24/7 for hepling you.</p>
-                </div> 
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <img src="media/s6.jpg">
-                </div>
-                <div class="info">
-                    <h3>Follow Us</h3>
-                    <p><br>If you would like to know more about us , you can follow our pages on social media & be notified with every new.</p>  
-                </div> 
-            </div>
-        </div>
+        </form>
         <!--Footer From Here-->
         <footer class="foot" id="foot">
             <div class="foot_div">
@@ -198,7 +178,11 @@
                 </p>
             </div>
         </footer>
-        </div>
-        <script src="service.js"></script>
-    </body>
+        <script src="login.js"></script>
+    </div>
+
+</body>
+
+
+
 </html>

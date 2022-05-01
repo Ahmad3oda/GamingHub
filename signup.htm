@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="service.css">
-</head>
-    <body>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="signup.css">
+            <title>Sign Up - Gaming Hub</title>
+    </head>
+    <body class="backlogin"> 
         <div class="all">
-            <!--Stick Header From Here-->
+           <!--Stick Header From Here-->
       <div class="stick_head">
         <div class="head_title">
             <a href="index.html"><img class="logo "src="media/logo.png"></a>
@@ -55,66 +54,24 @@
      </ul>
  </nav>
 
-        <!--Service from here-->
-        <section class="cards" id="services"></section>
-        <h2 class="title">Our Services</h2>
-        <div class="content">
-            <div class="card">
-                <div class="icon">
-                    <img src="media/s1.jpg">
-                </div>
-                <div class="info">
-                    <h3>Hardware</h3>
-                    <p><br>We got the best hardware collection that any gamer would find in the middle east with the best quality.</p>
-                </div>
+            <!--Sign Up from here-->
+            <div class="formlogin">
+                    <h2 class="h2">Sign Up</h2>
+                    <form class="field" action="/action_page.php">
+                            <p>Name</p>
+                            <input id="txt"  class="input" type="text" required placeholder="Text">
+                            <p>Email</p>
+                            <input id="mail"  class="input"type="email" required placeholder="Enter Your Email">
+                            <br>
+                            <p>Password</p>
+                            <input id="pass"  class="input"type="password" required placeholder="Password (txt&numbers)">
+                            <br>
+                            <p>Confirm Password</p>
+                            <input id="pas" class="input"  type="password" required placeholder="Password (txt&numbers)">
+                            <input id="sub" class="input"type="submit" value="Creat"> 
+                    </form>
             </div>
-            <div class="card">
-                <div class="icon">
-                    <img src="media/s2.jpg">
-                </div>
-                <div class="info">
-                    <h3>Accessories</h3>
-                    <p><br>Here you will find the best collection of accessories for your gaming personal gaming computer.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <img src="media/s3.jpg">
-                </div>
-                <div class="info">
-                    <h3>Games</h3>
-                    <p><br>If you are a gamer looking for a game, here you can find any game you would like to play.</p>
-                </div> 
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <img src="media/s4.jpg">
-                </div>
-                <div class="info">
-                    <h3>Offers & Discounts</h3>
-                    <p><br>If you worry about money , here you can find your needs with the least prices.</p>
-                </div> 
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <img src="media/s5.jpg">
-                </div>
-                <div class="info">
-                    <h3>Help Center</h3>
-                    <p><br>Customers are our first priority , our help and support center is open 24/7 for hepling you.</p>
-                </div> 
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <img src="media/s6.jpg">
-                </div>
-                <div class="info">
-                    <h3>Follow Us</h3>
-                    <p><br>If you would like to know more about us , you can follow our pages on social media & be notified with every new.</p>  
-                </div> 
-            </div>
-        </div>
-        <!--Footer From Here-->
+           <!--Footer From Here-->
         <footer class="foot" id="foot">
             <div class="foot_div">
                 <h3 class="foot_head"><a class="foot_link" href="">Fast Links </a></h3>
@@ -199,6 +156,6 @@
             </div>
         </footer>
         </div>
-        <script src="service.js"></script>
+        <script src="signup.js"></script>
     </body>
 </html>
