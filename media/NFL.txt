@@ -1,0 +1,23 @@
+MINIMUM REQUIREMENTS
+
+OS: 64-bit Windows 10
+Processor (AMD): Athlon X4 880K @4GHz or Equivalent
+Processor (Intel): Core i3-6100 @3.7GHz or Equivalent
+Memory: 8 GB
+Graphics card (AMD): Radeon RX 460 or Equivalent
+Graphics card (NVIDIA): GeForce GTX 660 or Equivalent
+DirectX: 11 Compatible video card or equivalent
+Online Connection Requirements: 512 KBPS or faster Internet connection
+Hard-drive space: 50 GB
+
+RECOMMENDED REQUIREMENTS
+
+OS: 64-bit Windows 10
+Processor (AMD): FX 8150 @3.6GHz or Equivalent
+Processor (Intel): Core i5-3350 @3.40GHz or Equivalent
+Memory: 12 GB
+Graphics card (AMD): Radeon R9 270x or Equivalent
+Graphics card (NVIDIA): GeForce GTX 680 or Equivalent
+DirectX: 11 Compatible video card or equivalent
+Online Connection Requirements: Broadband Connection
+Hard-drive space: 50 GB

@@ -1,0 +1,26 @@
+https://youtu.be/9EaEa-cHoa8?list=TLGGpot7xH0-5ycyODA0MjAyMg
+
+
+MINIMUM REQUIREMENTS
+
+OS: Windows 10
+Processor (AMD): FX-6350 or Equivalent
+Processor (Intel): Core i5-3570 or Equivalent
+Memory: 8 GB
+Graphics card (AMD): Radeon 7970/Radeon R9 280x or Equivalent
+Graphics card (NVIDIA): GeForce GTX 760 or Equivalent
+DirectX: 11 Compatible video card or equivalent
+Online Connection Requirements: 320 KBPS or faster Internet connection
+Hard-drive space: 50 GB
+
+RECOMMENDED REQUIREMENTS
+
+OS: Windows 10
+Processor (AMD): Ryzen 3 1300X or Equivalent
+Processor (Intel): Core i7-4790 or Equivalent
+Memory: 16 GB
+Graphics card (AMD): Radeon RX 480 or Equivalent
+Graphics card (NVIDIA): GeForce GTX 1060 or Equivalent
+DirectX: 11 Compatible video card or equivalent
+Online Connection Requirements: 512 KBPS or faster Internet connection
+Hard-drive space: 50 GB
