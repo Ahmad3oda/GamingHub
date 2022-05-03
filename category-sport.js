@@ -29,9 +29,9 @@ function showdata([img, product, category, link, brand, rate, price, offer]) {
 
 //////arrays
 
-let fifa21 = ["media/fifa-21-stand1.jpg", "", "FIFA 21", "Fifa 21.html", "EA Sports", "★★★★", "20$", "15% off"];
-let fifa22 = ["media/FIFA-22-Main-Image-1200x675.jpg", "", "FIFA 22", "Fifa 22.html", "EA Sports", "★★★★", "40$", "15%off"];
-let nfl = ["media/nfl1.jpg", "", "NFL 22", "NFL 22.html", "EA Sports", "★★★★", "50$", "12% off"];
+let fifa21 = ["media/fifa-21-stand1.jpg", "", "FIFA 21", "Fifa 21  .HTML", "EA Sports", "★★★★", "20$", "15% off"];
+let fifa22 = ["media/FIFA-22-Main-Image-1200x675.jpg", "", "FIFA 22", "Fifa 22  .HTML", "EA Sports", "★★★★", "40$", "15%off"];
+let nfl = ["media/nfl1.jpg", "", "NFL 22", "NFL 22  .HTML", "EA Sports", "★★★★", "50$", "12% off"];
 let nfsh = ["media/nfsheat.jpg", "", "Need For Speed Heat", "need for speed heat.HTML", "EA Sports", "★★", "35%", "10%off"];
 
 
