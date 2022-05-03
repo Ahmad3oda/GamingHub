@@ -1,0 +1,18 @@
+MINIMUM:
+Requires a 64-bit processor and operating system
+OS: Windows 10
+Processor: Intel Core i5-3570K or AMD FX-8310
+Memory: 8 GB RAM
+Graphics: NVIDIA GeForce GTX 970 or AMD Radeon RX 470
+DirectX: Version 12
+Storage: 70 GB available space
+Additional Notes: In this game you will encounter a variety of visual effects that may provide seizures or loss of consciousness in a minority of people. If you or someone you know experiences any of the above symptoms while playing, stop and seek medical attention immediately.
+RECOMMENDED:
+Requires a 64-bit processor and operating system
+OS: Windows 10
+Processor: Intel Core i7-4790 or AMD Ryzen 3 3200G
+Memory: 12 GB RAM
+Graphics: GTX 1060 6GB / GTX 1660 Super or Radeon RX 590
+DirectX: Version 12
+Storage: 70 GB available space
+Additional Notes: SSD recommended

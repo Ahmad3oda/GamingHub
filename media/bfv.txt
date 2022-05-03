@@ -1,0 +1,40 @@
+MINIMUM
+OS: 64-bit Windows 7, Windows 8.1 and Windows 10
+Processor (AMD): AMD FX-8350
+Processor (Intel): Core i5 6600K
+Memory: 8GB RAM
+Graphics card (NVIDIA): NVIDIA GeForce® GTX 1050 / NVIDIA GeForce® GTX 660 2GB
+Graphics card (AMD): AMD Radeon™ RX 560 / HD 7850 2GB
+DirectX: 11.0 Compatible video card or equivalent
+Online Connection Requirements: 512 KBPS or faster Internet connection
+Hard-drive space: 50GB
+
+MINIMUM FOR DXR OS: 64-bit Windows 10 October 2018 Update (1809)
+Processor (AMD): AMD Ryzen 5 2600
+Processor (Intel): Intel Core i5 8400
+Memory: 12GB RAM
+Graphics card (NVIDIA): NVIDIA GeForce® RTX 2070
+DirectX: DirectX Raytracing Compatible video card
+Online Connection Requirements: 512 KBPS or faster Internet connection
+Available Disk Space: 50GB
+
+RECOMMENDED
+OS: 64-bit Windows 10 or later
+Processor (AMD): AMD Ryzen 3 1300X
+Processor (Intel): Intel Core i7 4790 or equivalent
+Memory: 12GB RAM
+Graphics card (NVIDIA): NVIDIA GeForce® GTX 1060 6GB
+Graphics card (AMD): AMD Radeon™ RX 580 8GB
+DirectX: 11.1 Compatible video card or equivalent
+Online Connection Requirements: 512 KBPS or faster Internet connection
+Available Disk Space: 50GB
+
+RECOMMENDED FOR DXR
+OS: 64-bit Windows 10 October 2018 Update (1809)
+Processor (AMD): AMD Ryzen 7 2700
+Processor (Intel): Intel Core i7 8700
+Memory: 16GB RAM
+Graphics card (NVIDIA): NVIDIA GeForce® RTX 2080
+DirectX: DirectX Raytracing Compatible video card
+Online Connection Requirements: 512 KBPS or faster Internet connection
+Available Disk Space: 50GB

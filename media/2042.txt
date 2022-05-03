@@ -1,0 +1,28 @@
+Rating
+16+
+
+MINIMUM REQUIREMENTS
+
+OS: 64-bit Windows 10
+Processor (AMD): Ryzen 5 1600 or Equivalent
+Processor (Intel): Core i5 6600K or Equivalent
+Memory: 8 GB
+Video Memory: 4 GB
+Graphics card (AMD): Radeon RX 560 or Equivalent
+Graphics card (NVIDIA): GeForce GTX 1050 Ti or Equivalent
+DirectX: 12 Compatible video card or equivalent
+Online Connection Requirements: 512 KBPS or faster Internet connection
+Hard-drive space: 100 GB
+
+RECOMMENDED REQUIREMENTS
+
+OS: 64-bit Windows 10
+Processor (AMD): Ryzen 7 2700X or Equivalent
+Processor (Intel): Core i7 4790 or Equivalent
+Memory: 16 GB
+Video Memory: 8 GB
+Graphics card (AMD): Radeon RX 6600 XT or Equivalent
+Graphics card (NVIDIA): GeForce RTX 3060 or Equivalent
+DirectX: 12 Compatible video card or equivalent
+Online Connection Requirements: 512 KBPS or faster Internet connection
+Hard-drive space: 100 GB SSD
