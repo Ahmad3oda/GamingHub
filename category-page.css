@@ -279,6 +279,7 @@ body {
     text-align: left;
     padding-top: 20px;
     box-shadow: 0px 3px 5px -1px var(--color-1);
+    padding-left: 10px;
 }
 
 .head_item:hover {
@@ -415,6 +416,7 @@ ul li:hover>ul,
 .foot_link {
     color: var(--color-2);
     text-decoration: none;
+    
 }
 
 .foot_link:hover {
@@ -435,7 +437,7 @@ ul li:hover>ul,
     text-align: center;
     padding-right: 20px;
     text-decoration: none;
-    width: 160px;
+    width: 200px;
 }
 
 .foot_container {
@@ -444,6 +446,7 @@ ul li:hover>ul,
 }
 
 .foot_items {
+    margin: 14px;
     text-decoration: none;
     text-align: left;
     align-items: left;
