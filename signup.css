@@ -130,6 +130,7 @@ p{
     text-align: center;
     font-size: 16px;
     font-family: 'Lexend Exa', sans-serif;
+    margin-bottom: 150px;
 }
 .nav_semi_cat{
     padding: 0 0 0px 20px;
@@ -200,30 +201,31 @@ ul li:hover > ul,
       margin:auto;
       width:30em;
       height:42em;
-      background-color:var(--color-3);
-      border-radius: 40px;
+      background-color:var(--color-1);
+      border-radius: 15px;
       transition: .8s ease;
       font-family: 'Lexend Exa',sans-serif;
       margin-bottom: 80px;
       margin-top: 60px;
       box-shadow: 0px 5px 25px var(--color-1);
+      padding-top: 10px;
     }
     .formlogin h2{
         transition: .7s ease;
         display: flex;
         justify-content: center;
         padding-top: 20px;
-        color:var(--color-2);
+        color:var(--color-3);
         margin-bottom: 20px; 
     }
     .field{
-        color:var(--color-2);
+        color:var(--color-3);
         font-size:medium;
         padding: 10px 20px;
     }
     .formlogin h2:hover{
          transform: scale(1.1);
-         color:var(--color-1);
+         color:var(--color-3);
     }
     .backlogin{
         width:100%;
@@ -232,11 +234,11 @@ ul li:hover > ul,
     .formlogin input{
         width: 100%;
         margin-bottom: 80px;
-        color: var(--color-2);
+        color: var(--color-3);
     }
-   .formlogin input[type="email"],input[type="password"]{
+   .formlogin input[type="email"],input[type="password"],input[type="text"]{
     border:none; 
-    border-bottom: 1px solid var(--color-1);
+    border-bottom: 1px solid var(--color-3);
     margin-left: 10%;
     background: transparent;
     outline: none;
@@ -256,21 +258,20 @@ ul li:hover > ul,
     .formlogin input[type="submit"]{
         border: none;
         height: 4em;
-        width:40%;
-        margin: 20px 120px;
-        border-radius: 150px;
+        width:60%;
+        margin: 15px 95px;
+        border-radius: 15px;
         transition: .7s ease;
-        background-color:var(--color-2);
+        background-color:var(--color-3);
         font-size: medium;
-        color: var(--color-1);
+        color: var(--color-2);
         font-weight: 10px;
         cursor: progress;  
       }
     .formlogin input[type="submit"]:hover{
-         /* background-color: ; */
-         color:var(--color-2);
+         color:var(--color-3);
          background-color:var(--color-1);
-         margin: 20px;  
+         border: var(--color-3) 1px solid;
      }
     .formlogin a{
         border: none;
@@ -312,7 +313,7 @@ ul li:hover > ul,
     }
     .formlogin input[type="text"]{
         border:none; 
-        border-bottom: 1px solid var(--color-1);
+        border-bottom: 1px solid var(--color-3);
         margin-left: 10%;
         background: transparent;
         outline: none;
