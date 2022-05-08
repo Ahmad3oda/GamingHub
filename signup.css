@@ -175,7 +175,7 @@ ul li:hover > ul,
       display: block;
       min-width: 250px;
       text-align: left;
-      padding-top: 20px;
+      padding-top:  20px;
       box-shadow: 0px 3px 5px -1px var(--color-1);
 }
 .nav_last{
