@@ -33,30 +33,41 @@ icon.onclick = function(){
     }
 }
 
-function solve() {
-    var x = document.getElementById("password");
-    var y = document.getElementById("hide1");
-    var z = document.getElementById("hide2");
+let nameInput = document.getElementById("[name='username']");
+let emailInput = document.getElementById("[name='email']");
+let phoneInput = document.getElementById("[name='phone']");
+let messageInput = document.getElementById("[name='message']");
 
-    if (x.type === 'password') {
-        x.type = "text";
-        y.style.display = "block";
-        z.style.display = "none";
+
+
+
+
+document.forms[0].onsubmit = function(v){
+
+    namevalid = false;
+    emailvalid = false ;
+    phonevalid = false;
+    messagevalid = false;
+
+    if (nameInput.value != ""){
+        namevalid = true;
     }
-    else {
-        x.type = "password";
-        y.style.display = "none";
-        z.style.display = "block";
-
+    if ( emailInput.value != ""){
+        emailvalid = true;
+    }
+    if (phoneInput.value != ""){
+        phonevalid = true;
+    }
+    if (messageInput.value != ""){
+        messagevalid = true;
     }
 
-}
-function save(){
-    let name, password;
-name = document.getElementById("name").value;
-password = document.getElementById("password").value;
+    if ( namevalid === false || emailvalid === false || phonevalid === false || messagevalid === false){
+        v.preventDefault();
+    }
 
-localStorage.setItem("name",name)
-localStorage.setItem("password",password)
 
+};
+function solve(){
+    alert("The Operation is Sccusseful");
 }
