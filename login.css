@@ -196,7 +196,7 @@ ul li:hover > ul,
     margin: 12% auto;
     padding: 50px 0;
     color: var(--color-2);
-    box-shadow: 0 0 20px 2px var(--color-1);
+    box-shadow: 0 0 10px 2px var(--color-1);
     border-radius: 15px;
 }
 .photo {
@@ -280,6 +280,15 @@ header p {
 }
 
 .signup_link:hover {
+    color: var(--color-3);
+}
+.link100{
+    margin :auto;
+    margin-left: 31%;
+    text-decoration: none;
+    color: var(--color-2);
+}
+.link100:hover{
     color: var(--color-3);
 }
 /*-----Footer-----*/
