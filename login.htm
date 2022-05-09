@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <!-- <link rel="stylesheet" href="all.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="login.css">
 </head>
 
@@ -70,16 +74,16 @@
                     
                     <header>
         
-                        <h1>log in</h1>
+                        <h1>Log in</h1>
                         <p>login here using your username and password </p>
                     </header>
                     <br>
         
                     <div class="input-box">
         
-                        <span class="icon">
+                        <!-- <span class="icon">
                             <i class="fa-solid fa-user"></i>
-                        </span>
+                        </span> -->
                         <input type="text" placeholder="@UserName"  id="name" required>
                     </div>
                     <br>
@@ -93,17 +97,20 @@
         
         
                         <span class="eye" onclick="solve()">
-                            <i id="hide1" class="fa-solid fa-eye"></i>
-                            <i id="hide2" class="fa-solid fa-eye-slash"></i>
+                            <i class="fa-solid fa-eye"  id="hide1"></i>
+                            <i class="fa-solid fa-eye-slash"  id="hide2"></i>
+                            <!-- <i class="far fa-eye" id="hide1"></i> -->
+                             <!-- <i id="hide1" class="fa-solid fa-eye"></i> -->
+                            <!-- <i id="hide2" class="fa-solid fa-eye-slash"></i> --> 
         
                         </span>
         
                     </div>
-                    <p class="wrong" id="wrong" style="color: red; display:none; text-align:center;">wrong</p>
+                    <p class="wrong" id="wrong" style="color: red; display:none; text-align:center;">Wrong Username or Password</p>
                     <br>
                     <button type="submit" class="log-in">LOGIN</button>
         
-                    <!-- <a href="#">Do You Haven't Account ?</a> -->
+                       <a class="link100"href="signup.htm">Do You Haven't Account ?</a>
         
         
                 </div>
