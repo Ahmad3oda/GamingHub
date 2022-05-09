@@ -33,41 +33,75 @@ icon.onclick = function(){
     }
 }
 
-let nameInput = document.getElementById("[name='username']");
-let emailInput = document.getElementById("[name='email']");
-let phoneInput = document.getElementById("[name='phone']");
-let messageInput = document.getElementById("[name='message']");
+// let nameInput = document.getElementById("[name='username']");
+// let emailInput = document.getElementById("[name='email']");
+// let phoneInput = document.getElementById("[name='phone']");
+// let messageInput = document.getElementById("[name='message']");
 
 
 
 
 
-document.forms[0].onsubmit = function(v){
+// document.forms[0].onsubmit = function(v){
 
-    namevalid = false;
-    emailvalid = false ;
-    phonevalid = false;
-    messagevalid = false;
+//     namevalid = false;
+//     emailvalid = false ;
+//     phonevalid = false;
+//     messagevalid = false;
 
-    if (nameInput.value != ""){
-        namevalid = true;
+//     if (nameInput.value != ""){
+//         namevalid = true;
+//     }
+//     if ( emailInput.value != ""){
+//         emailvalid = true;
+//     }
+//     if (phoneInput.value != ""){
+//         phonevalid = true;
+//     }
+//     if (messageInput.value != ""){
+//         messagevalid = true;
+//     }
+
+//     if ( namevalid === false || emailvalid === false || phonevalid === false || messagevalid === false){
+//         v.preventDefault();
+//     }
+
+
+// };
+// function solve(){
+//     alert("The Operation is Sccusseful");
+// }
+
+
+function solve() {
+    let pass = document.getElementById('password');
+    let hide_1 = document.getElementById("hide1");
+    let hide_2 = document.getElementById("hide2");
+
+    if (pass.type === 'password') {
+        pass.type = "text";
+        hide_1.style.display = "block";
+        hide_2.style.display = "none";
     }
-    if ( emailInput.value != ""){
-        emailvalid = true;
-    }
-    if (phoneInput.value != ""){
-        phonevalid = true;
-    }
-    if (messageInput.value != ""){
-        messagevalid = true;
+    else {
+        pass.type = "password";
+        hide_1.style.display = "none";
+        hide_2.style.display = "block";
+
     }
 
-    if ( namevalid === false || emailvalid === false || phonevalid === false || messagevalid === false){
-        v.preventDefault();
+}
+let form = document.getElementById('form');
+form.onsubmit = function ( ) {
+    let pass = document.getElementById('password');
+    let user_name = document.getElementById('name');
+    let wrong = document.getElementById('wrong');
+    if ((user_name.value == localStorage.txt && pass.value == localStorage.pass)) {
+        wrong.style.display = 'none';
+        return true;
     }
-
-
-};
-function solve(){
-    alert("The Operation is Sccusseful");
+    else {
+        wrong.style.display = 'block';
+        return false;
+    }
 }

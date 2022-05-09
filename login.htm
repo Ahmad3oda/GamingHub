@@ -64,45 +64,54 @@
         <li class="nav_cat"><a class="nav_link" href="help.htm" >Help</a></li>
     </ul>
 </nav>
-        <form action="indecs.html" method="post">
-            <div class="con">
-                <header>
-                <!-- useing becuse h2 and p  -->
-                    <h1>Log In</h1>
-                    <p>Enter your Username and Password </p>
-                </header>
-                <br>
-                <!-- to the username -->
-                <div class="input-box">
-
-                    <span class="icon">
-                        <i class="fa-solid fa-user"></i>
-                    </span>
-                    <input type="text" placeholder="UserName" required id="name">
+        <div class="main">
+            <form action="index.html" method="get" id="form" >
+                <div class="con">
+                    
+                    <header>
+        
+                        <h1>log in</h1>
+                        <p>login here using your username and password </p>
+                    </header>
+                    <br>
+        
+                    <div class="input-box">
+        
+                        <span class="icon">
+                            <i class="fa-solid fa-user"></i>
+                        </span>
+                        <input type="text" placeholder="@UserName"  id="name" required>
+                    </div>
+                    <br>
+        
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class="fa fa-key"></i>
+                        </span>
+        
+                        <input id="password" class="input-form" type="password" placeholder="Password" required>
+        
+        
+                        <span class="eye" onclick="solve()">
+                            <i id="hide1" class="fa-solid fa-eye"></i>
+                            <i id="hide2" class="fa-solid fa-eye-slash"></i>
+        
+                        </span>
+        
+                    </div>
+                    <p class="wrong" id="wrong" style="color: red; display:none; text-align:center;">wrong</p>
+                    <br>
+                    <button type="submit" class="log-in">LOGIN</button>
+        
+                    <!-- <a href="#">Do You Haven't Account ?</a> -->
+        
+        
                 </div>
-                <br>
-                <!-- to the password -->
-                <div class="input-box">  
-                    <span class="icon">
-                        <i class="fa fa-key"></i>
-                    </span>
-
-                    <input id="password" class="input-form" type="password" placeholder="Password" required>
-                    <!-- to hide and show password -->
-                    <span class="eye" onclick="solve()">
-                        <i id="hide1" class="fa-solid fa-eye"></i>
-                        <i id="hide2" class="fa-solid fa-eye-slash"></i>
-
-                    </span>
-                </div>
-                <br>
-                <!-- the bottom -->
-
-                <button type="button" onclick="solve()" action="index.html" class="log-in">LOGIN</button>
-
-                <a class="signup_link" href="signup.htm">You Don't Have Account ?</a>
-            </div>
-        </form>
+        
+        
+            </form>
+        
+        </div>
         <!--Footer From Here-->
         <footer class="foot" id="foot">
             <div class="foot_div">

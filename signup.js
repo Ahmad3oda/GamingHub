@@ -1,3 +1,25 @@
+let txt = document.getElementById('txt');
+let mail = document.getElementById('mail');
+let pass = document.getElementById('pass');
+let pas = document.getElementById('pas');
+
+txt.onkeyup = function () {
+    localStorage.setItem("txt", txt.value);
+}
+
+mail.onkeyup = function () {
+    localStorage.setItem("mail", mail.value);
+}
+
+pass.onkeyup = function () {
+    localStorage.setItem("pass", pass.value);
+}
+pas.onkeyup = function () {
+    localStorage.setItem("pas", pas.value);
+}
+
+
+
 var icon = document.getElementById("icon");
 let bg = document.getElementById("foot");
 
@@ -33,15 +55,15 @@ icon.onclick = function(){
     }
 }
 
-let txt=document.getElementById('txt');
-let mail=document.getElementById('mail');
-let pass=document.getElementById('pass');
-let pas=document.getElementById('pas');
+// let txt=document.getElementById('txt');
+// let mail=document.getElementById('mail');
+// let pass=document.getElementById('pass');
+// let pas=document.getElementById('pas');
 
-localStorage.setItem("txt",text);
-localStorage.setItem("mail",mail);
-localStorage.setItem("pass",pass);
-localStorage.setItem("pas",pas);
+// localStorage.setItem("txt",text);
+// localStorage.setItem("mail",mail);
+// localStorage.setItem("pass",pass);
+// localStorage.setItem("pas",pas);
 
 window.onload=function(){
     text.focus();
