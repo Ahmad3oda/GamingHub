@@ -73,6 +73,7 @@ text.oncontextmenu=function(){
     text.blur()
 }
 
+
 mySub.onclick=function(){
     mySub.style.background='white'
 }
