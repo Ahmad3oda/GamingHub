@@ -191,6 +191,206 @@ ul li:hover > ul,
    transition: all 0.3s ease;
 }
 
+/*-----Cards-----*/
+.container {
+   width: 1000px;
+   position: relative;
+   display: flex;
+   margin-top: -200px;
+}
+
+.container .card{
+   position: relative;
+   border-radius: 10px;
+   margin-top: -200px;
+}
+
+.container .card .icon {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: var(--color-3);
+   transition: 0.7s;
+   z-index: 1;
+}
+
+.container .card:nth-child(1) .icon {
+   background-image: url(media/ibra1.jpeg);
+   background-size: 100%; 
+}
+
+.container .card:nth-child(2) .icon {
+   background-image: url(media/ibra2.jpeg);
+   background-size: 100%; 
+}
+
+.container .card:nth-child(3) .icon {
+   background-image: url(media/sayed.jpeg);
+   background-size: 100%; 
+}
+.container .card:nth-child(4) .icon {
+   background-image: url(media/jimy.jpeg);
+   background-size: 100%; 
+}
+.container .card:nth-child(5) .icon {
+   background-image: url(media/zayan.jpeg);
+   background-size: 100%; 
+}
+.container .card:nth-child(6) .icon {
+   background-image: url(media/taha.jpeg);
+   background-size: 100%; 
+}
+
+
+.container .card .icon .fa {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 80px;
+   transition: 0.7s;
+   color: var(--color-2);
+}
+
+i {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 80px;
+   transition: 0.7s;
+   color: var(--color-2);
+}
+
+.container .card .face {
+   width: 200px;
+   height: 200px;
+   transition: 0.5s;
+}
+
+.container .card .face.face1 {
+   position: relative;
+   background: var(--color-1);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 1;
+   transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+   background: var(--color-3);
+   transform: translateY(0px);
+}
+
+.container .card .face.face1 .content {
+   opacity: 1;
+   transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content {
+   opacity: 1;
+}
+
+.container .card .face.face1 .content i{
+   max-width: 100px;
+}
+
+.container .card .face.face2 {
+   position: relative;
+   background: var(--color-4);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   box-sizing: border-box;
+   box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+   transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+   transform: translateY(0);
+}
+
+.container .card .face.face2 .content p {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   color: var(--color-1);
+}
+
+.container .card .face.face2 .content h3 {
+   margin: 0 0 10px 0;
+   padding: 0;
+   color: var(--color-2);
+   font-size: 24px;
+   text-align: center;
+   color: var(--color-1);
+} 
+
+.container a {
+   text-decoration: none;
+   color: var(--color-1);
+}
+ 
+.container  {
+   padding: -30px 15px 0;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 60px;
+   margin-bottom: 120px;
+   z-index: 0;
+}
+/* Small */
+@media (min-width: 768px) {
+   .container  {
+      width: 750px;
+   }
+}
+/* Medium */
+@media (min-width: 992px) {
+   .container  {
+      width: 970px;
+   }
+}
+/* Large */
+@media (min-width: 1200px) {
+   .container  {
+      width: 1170px;
+   }
+}
+
+
+.container  .intro {
+   font-size: 35px;
+   position: relative;
+}
+
+.container  .intro::after {
+   content: '';
+   position: absolute;
+   bottom: -15px;
+   left: 0;
+   width: 100%;
+   height: 3px;
+   z-index: 1;
+   background-color:var(--color-3);
+}
+
+.titles{
+   margin: 0px auto 0px auto;
+   display: block;
+   position: absolute;
+   font-size: 30px;
+   font-weight: 700;
+   color: var(--color-1);
+   border-bottom: 2px solid var(--color-3);
+}
+
 /*-----Form-----*/
 
 .one,
@@ -208,30 +408,30 @@ html {
 body {
    background-color: var(--color-2);
 }
-.container {
-   padding: 60px 15px 0;
+.container2 {
+   padding: -20px 15px 0;
    padding-right: 15px;
    padding-left: 15px;
    margin-left: auto;
    margin-right: auto;
-   margin-top: 120px;
+   margin-top: 20px;
    margin-bottom: 120px;
 }
 /* Small */
 @media (min-width: 768px) {
-   .container {
+   .container2 {
       width: 750px;
    }
 }
 /* Medium */
 @media (min-width: 992px) {
-   .container {
+   .container2 {
       width: 970px;
    }
 }
 /* Large */
 @media (min-width: 1200px) {
-   .container {
+   .container2 {
       width: 1170px;
    }
 }
@@ -247,12 +447,12 @@ body {
 }
 /* End Components */
 
-.container .intro {
+.container2 .intro {
    font-size: 35px;
    position: relative;
 }
 
-.container .intro::after {
+.container2 .intro::after {
    content: '';
    position: absolute;
    bottom: -15px;
